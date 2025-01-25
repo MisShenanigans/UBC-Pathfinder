@@ -1,0 +1,54 @@
+# macOS system files
+.DS_Store
+*.AppleDouble
+.AppleDesktop
+.Trashes
+._*
+
+# macOS specific file attributes
+.Spotlight-V100
+.TemporaryItems
+.fseventsd
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+env/
+venv/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Coverage reports
+.coverage
+htmlcov/
+*.cover
+
+# MyPy cache
+.mypy_cache/
+
+# pytest cache
+.pytest_cache/
+
+# IDE specific files (optional)
+.vscode/
+.idea/

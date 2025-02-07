@@ -42,7 +42,7 @@ By definition, a flow network is a directed graph that consists of nodes and edg
 - **E**: The set of all edges from node $i$ to $j$.
 - **Flow generation:**
 
-  $$ 
+ $$ 
   b_k = 
   \begin{cases} 
   b_o=1, & \text{if origin node} \\

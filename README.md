@@ -41,21 +41,27 @@ By definition, a flow network is a directed graph that consists of nodes and edg
 - **N**: The set of all buildings, road intersections, and endpoints (nodes of the graph).
 - **E**: The set of all edges from node $i$ to $j$.
 - **Flow generation:**
-  ```math
-  b_k = \begin{cases}
-b_o=1, & \text{origin node} \\
-b_d=-1, & \text{destination node} \\
-b_k=0, & \text{otherwise}
-\end{cases}
-  ```
+
+  $$ 
+  b_k = 
+  \begin{cases} 
+  b_o=1, & \text{if origin node} \\
+  b_d=-1, & \text{if destination node} \\
+  b_k=0, & \text{otherwise}
+  \end{cases} 
+  $$
+
 - **$d_{i,j}$**: Distance between nodes $i$ and $j$ (edge weight).
 - **$x_{i,j}$**: Flow from node $i$ to $j$:
-  ```math
-  x_{i,j} = \begin{cases}
+
+ $$ 
+  x_{i,j} = 
+  \begin{cases} 
   1, & \text{if edge } (i, j) \text{ is part of the shortest path} \\
   0, & \text{otherwise}
-  \end{cases}
-  ```
+  \end{cases} 
+  $$
+
 - **$u_{i,j} = 1$**: Capacity constraint from node $i$ to $j$.
 
 #### Linear Programming Formulation:
